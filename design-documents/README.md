@@ -7,6 +7,7 @@ Table of Contents
 -----------------
 * [Overview](overview.md)
 * [Git Graph](gitgraph.md)
+* [Explore Content](content-explore.md)
 
 How to Use
 -----------
