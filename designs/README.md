@@ -1,6 +1,11 @@
 # Designs
 A detailed breakdown of the different designs
 
+## Table of Contents
+1. [Header](#header)
+2. [Sections](#sections)
+
+<div id=header>
 ## Header
 ![Header](mockups/Header.png)
  
@@ -21,6 +26,7 @@ This is the header of the page. The title is **20px** from the left and the menu
 ![Large Header](mockups/HeaderLarge.png)
 Once the device width has expanded to tablet width (**768px**), the menu becomes a list of links, spaced **15px** apart, to each section. All content is vertically centered.
 
+<div id=sections>
 ## Sections
 ![Red Section](mockups/SectionRed.png)
 ![Blue Section](mockups/SectionBlue.png)
