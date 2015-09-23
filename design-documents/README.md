@@ -2,6 +2,8 @@
 A detailed breakdown of the different designs
 
 ## Table of Contents
+All design elements are organized according to [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/). Basic elements like colors and links are Atoms. Reusable combinations of atoms are Molecules and large sections are  
+
 1. [Atoms](#atoms)
     1. [Colors](#colors)
 2. [Molecules](#molecules) 
