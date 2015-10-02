@@ -1,8 +1,8 @@
 Project Overview
 ========
-This document acts as a home for omnipresent project goals and information for \<Title Pending\>.
+This document acts as a home for omnipresent project goals and information for learnVCS.
 
-\<Title Pending\> is part of a student-driven overhaul of how version control is taught in the IGM curricula. \<Title Pending\> is a starting ground for students to learn version control, with resources to start versioning code using Git. It is designed to ease the introduction of version control into early course material by professors, serve as a solid starting point for students new to the concept of versioning, and contain a collection of resources to continue exploration of the world of source control. 
+learnVCS is part of a student-driven overhaul of how version control is taught in the IGM curricula. learnVCS is a starting ground for students to learn version control, with resources to start versioning code using Git. It is designed to ease the introduction of version control into early course material by professors, serve as a solid starting point for students new to the concept of versioning, and contain a collection of resources to continue exploration of the world of source control. 
 
 Goals
 -----
