@@ -12,7 +12,7 @@ Table of Contents
 
 How to Use
 -----------
-The goal of this set of documents is the clearly outline the purpose, design and implementation of key features of \<Title Pending\>. This will faciliate clearer goals and more consistent results in our team. All feature designs should be filed as separate documents with the following sections: 
+The goal of this set of documents is the clearly outline the purpose, design and implementation of key features of learnVCS. This will faciliate clearer goals and more consistent results in our team. All feature designs should be filed as separate documents with the following sections: 
 
 * Introduction
   * Purpose
