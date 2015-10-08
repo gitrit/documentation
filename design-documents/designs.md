@@ -49,7 +49,7 @@ Text content begins immediately after. The padding on the **Bottom, Left and Rig
 The main portion of the modal has a **fixed height of 355px.** If the content within overflows, the User can scroll through it. Spacing between subsections is **12px.**
 
 ![Large Modal](mockups/ModalLargeView.png)
-When the screen size is larger than **Tablet View (768px)** The View changes slightly. It now appears beside the node and the arrow points to the left. It is located 35px from the top of the modal.
+When the screen size is larger than **Tablet View (768px)** The View changes slightly. It now appears beside the node and the arrow points to the left. It is located 35px from the top of the modal. Unlike the mobile version, which faded in from the top, this fades in from the left.
 
 <div id="organisms"</div>
 ## Organisms
