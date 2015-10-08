@@ -46,7 +46,10 @@ This is the mobile view of the Modal. It appears below a selected Graph Node whe
 Text content begins immediately after. The padding on the **Bottom, Left and Right** is **24px.** There is no padding on the top.
 
 ![Scrolled Modal](mockups/ModalMobileScrolled.png)
-The main portion of the modal has a **fixed height of 355px.** If the content within overflows, the User can scroll through it.
+The main portion of the modal has a **fixed height of 355px.** If the content within overflows, the User can scroll through it. Spacing between subsections is **12px.**
+
+![Large Modal](mockups/ModalLargeView.png)
+When the screen size is larger than **Tablet View (768px)** The View changes slightly. It now appears beside the node and the arrow points to the left. It is located 35px from the top of the modal.
 
 <div id="organisms"</div>
 ## Organisms
