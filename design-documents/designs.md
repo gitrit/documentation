@@ -6,6 +6,7 @@ All design elements are organized according to [Atomic Design](http://bradfrost.
 
 1. [Atoms](#atoms)
     1. [Colors](#colors)
+    2. [Graph Nodes](#graphnodes)
 2. [Molecules](#molecules) 
 3. [Organisms](#organisms)
     1. [Header](#header)
@@ -18,6 +19,11 @@ All design elements are organized according to [Atomic Design](http://bradfrost.
 ### Colors
 ![Colors](mockups/Colors.png)
 The site uses a bright color palette inspired by Google's [Material Design](https://www.google.com/design/spec/style/color.html). The center column is the base color. Each one has a light and dark variant.
+
+<div id="graphnodes"></div>
+### Graph Nodes
+![Graph Nodes](mockups/Nodes.png)
+These are the nodes that will be used in the graph. There are 12 base colors, which is what will be displayed by default. There is a dimmed variant and an active variant for each color. Each node is **25px in diameter** with a border that is **4px thick.**
 
 <div id="molecules"></div>
 ## Molecules
