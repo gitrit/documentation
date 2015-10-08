@@ -8,6 +8,7 @@ All design elements are organized according to [Atomic Design](http://bradfrost.
     1. [Colors](#colors)
     2. [Graph Nodes](#graphnodes)
 2. [Molecules](#molecules) 
+    1. [Info Modal](#infomodal)
 3. [Organisms](#organisms)
     1. [Header](#header)
     2. [Sections](#sections)
@@ -27,6 +28,25 @@ These are the nodes that will be used in the graph. There are 12 base colors, wh
 
 <div id="molecules"></div>
 ## Molecules
+
+<div id="infomodal"></div>
+### Info Modal
+![Info Modal](mockups/ModalMobile.png)
+**Fonts**
+
+ + _Main Header:_ Montserrat Bold (24px)
+ + _Subheaders:_ Montserrat Bold (20px)
+
+**Icons**
+ 
+ + _Close:_ **30px x 30px**
+
+This is the mobile view of the Modal. It appears below a selected Graph Node when it clicked in a way similar to [this demo.](http://codepen.io/recanti/pen/GpmgjM) There is a button at the top which will close the modal. It is located **8px from the top** and **8px from the right.** Tapping anywhere outside the modal will also close it. The arrow consists of a **35px x 35px** rectangle rotated **45 degrees**
+
+Text content begins immediately after. The padding on the **Bottom, Left and Right** is **24px.** There is no padding on the top.
+
+![Scrolled Modal](mockups/ModalMobileScrolled.png)
+The main portion of the modal has a **fixed height of 355px.** If the content within overflows, the User can scroll through it.
 
 <div id="organisms"</div>
 ## Organisms
