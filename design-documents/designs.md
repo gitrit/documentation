@@ -8,7 +8,8 @@ All design elements are organized according to [Atomic Design](http://bradfrost.
     1. [Colors](#colors)
     2. [Graph Nodes](#graphnodes)
 2. [Molecules](#molecules) 
-    1. [Info Modal](#infomodal)
+    1. [Badges](#badges)
+    2. [Info Modal](#infomodal)
 3. [Organisms](#organisms)
     1. [Header](#header)
     2. [Sections](#sections)
@@ -28,6 +29,24 @@ These are the nodes that will be used in the graph. There are 12 base colors, wh
 
 <div id="molecules"></div>
 ## Molecules
+
+<div id="badges"></div>
+### Badges
+![Badge Blue Variant](mockups/Badge.png)
+![Badge Red Variant](mockups/BadgeRed.png)
+![Badge Yellow Variant](mockups/BadgeYellow.png)
+![Badge White Variant](mockups/BadgeWhite.png)
+
+**Icons**
+ 
+ + _Title Logo:_ **Max Height of 45px**
+
+These are badges that are used to reference external sources. They consist of a title image and a brief description, no more than a couple sentences long. There are different color variants for badges depending on your section of the site. All badges should have the same width and height, and the height should be **163px.**
+
+
+The title image is horizontally centered and maintains its aspect ratio. The image should preferably be an SVG logo of the resource. There should always have at least **36px** of margin to the left and right, but it should stop resizing if the height reaches **45px.** The title should be **24px** from the top of the badge.
+
+The title and body text should be separated by **12px.** The body text should be **24px** from the bottom of the badge and **24px** from each side.
 
 <div id="infomodal"></div>
 ### Info Modal
