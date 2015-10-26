@@ -25,9 +25,12 @@ Specifications
   * The library is 16kB in size.
 * Performance/Scalability
   * This has not been tested.
+
 Use Cases
 ---------
-* Pending
+* View and interact with sample repository designed to teach project structure
+* View and interact with other GitHub repositories
+
 UI flow
 -------
-A visual mockup of the feature (Pending)
+![mockup](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/Desktop.png)
