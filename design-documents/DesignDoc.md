@@ -1,20 +1,20 @@
-#LearnVCS Design Document
+#learnVCS Design Document
 
 ##Abstract
-This document describes the design of the learnVCS project. It outlines the goal of the project, the target audience, and the constraints, and in doing so allows us to design the best project within those limitations.
+This document describes the design of the [learnVCS](https://github.com/learnVCS/learnVCS.github.io/) project. It outlines the goal of the project, the target audience, and the constraints, and in doing so allows us to design the best project within those limitations.
 
 ##Mission Objective
-Version Control is an important part of development, but it can be very difficult to grasp when you're first starting out. School is a great place to learn about this before entering the real world, but as of now it is not being given much focus in the Interactive Games and Media (IGM) program at the Rochester Institute of Technology (RIT). The goal of this project is to __give students a resource they can use to understand version control concepts and give teachers a resource they can use to integrate version control lessons into their presentations.__
+Version Control is an important aspect of organized software development, but the concepts and various version control systems (VCS) can be difficult to grasp when you're first starting out. School is a great place to learn about this before entering the real world, but as of now it is not being given much focus in the [Interactive Games and Media (IGM)](https://www.rit.edu/gccis/igm/) program at the [Rochester Institute of Technology (RIT)](http://www.rit.edu/). The goal of this project is to __give students a resource they can use to understand version control concepts and give teachers a resource they can use to integrate version control lessons into their presentations.__
 
 ##Constraints
-1. __The product should be easily integrate into professors existing lessons.__ Redesigning the IGM curriculum would be a major undertaking that is beyond the scope of this initial semester-long release cycle. We should focus on making a product that can be integrated into existing lessons, such as extra slides that can be inserted into existing presentations.*
+1. __The product should be easily integrate into professors existing lessons.__ Redesigning the IGM curriculum would be a major undertaking that is beyond the scope of this initial semester-long release cycle. We should focus on making a product that can be integrated into existing lessons, such as extra slides that can be integrated with existing presentations.
 
 2. __The product should consist of a single page.__ If a person were to stumble on this site, we would want them to be able to find exactly what they are looking for with minimal effort. They should not have to click around the site to find something basic. As such, the site should present all information in a single, easy-to-navigate page.
 
 ##Target Audience
-__Professors__ - Because this product is intended to be integrated with the IGM curriculum, professors are very important*. It should be easy to demonstrate the product in front of a class of students. Additional materials, such as supplementary slides to use in presentations, would also be helpful.
+__Professors__ - Because learnVCS is intended to be integrated with the IGM curriculum, professors are crucial to delivering this information. It should be easy to demonstrate the learnVCS material in front of new students in the introductory program. Additional materials, such as supplementary slides to use in presentations, would also be beneficial.
 
-__Newcomers to Version Control__ - learnVCS is designed to teach version control concepts to IGM students, but it should be accessible to anyone curious about the subject. It should present the concepts clearly and concisely, even without any prior experience with version control. 
+__Newcomers to Version Control__ - learnVCS is designed to teach version control concepts to IGM students, but it should be accessible to anyone with some technical knowledge but no prior experience. It should present the concepts clearly and concisely, even without any prior experience with version control. 
 
 ##Resources
 
@@ -23,8 +23,8 @@ learnVCS will provide a curated collection of resources to convey version contro
 ###Git Graph
 
 ####Dependencies:
- - React*
- - React-Commits-Graph*
+ - [React](http://facebook.github.io/react/)
+ - [react-commits-graph](https://github.com/jsdf/react-commits-graph)
  - A sample app to demonstrate a graph
  
 ####Purpose
@@ -34,7 +34,7 @@ The purpose of this section is to visually demonstrate principles of repository 
 Initially the graph displayed will be the commit history for a simple console application. The sample application is designed to effectively demonstrate version control principles through its branching model and quality commit messages. The sample application is hosted on GitHub, but the commit information will be stored locally as JSON for faster loading, and in the event that GitHub is down. __GitHub support must not be required in order to get the most out of this interaction.__ The sample application will be a simple CLI calculator program, written in C#, though the actual form of the application is incidental. 
 
 ####Loading a Graph
-The user will be able to enter the user or organization name and repository name of a particular public project on GitHub. They will then be prompted to authenticate with GitHub using OAuth. After successful authentication, the commit information will be loaded in from GitHub's API, and passed through a React plugin to produce an SVG representation of the commit graph. The user will also be able to click or tap on commit nodes, represented as colored circles, to see details such as the commit message, author, date and hash.
+The user will be able to enter the user or organization name and repository name of a particular public project on GitHub. They will then be prompted to authenticate with GitHub using OAuth. After successful authentication, the commit information will be loaded in from GitHub's API, and passed through a React plugin to produce an SVG representation of the [Commit Graph](#commit-graph). The user will also be able to click or tap on commit nodes, represented as colored circles, to see details such as the commit message, author, date and hash.
 
 ###Why Use Version Control?
 
@@ -44,7 +44,7 @@ This section is intended to highlight primary motivators for using version contr
 ###Learn Git
 
 ####Purpose
-It is outside the scope of learnVCS to go in-depth on any particular version control system. As Git is the most popular VCS for publically hosted code, this section will provide a small collection of hand-picked resources on learning and getting started with Git.
+It is outside the scope of learnVCS to go in-depth on any particular version control system. As Git is the most popular VCS for publicly hosted code, this section will provide a small collection of hand-picked resources on learning and getting started with Git.
 
 ###Find Out More
 
@@ -54,8 +54,7 @@ While learnVCS focuses primarily on Git for the reasons outlined in the previous
 ###About
 
 ####Purpose
-There will be a low-key profiling of the team members and accredition who will make this site possible. Each team member will have a small picture, their name, a description of their role and a small blurb about how cool they are. 
-Below these profiles will be appropriate accredition to the various open source projects and branding assets utilized in the making of learnVCS.
+There will be a low-key profiling of the team members and resources employed in the making of learnVCS. Each team member will have a small picture, their name, a description of their role and a small blurb about how cool they are. Below these profiles will be appropriate accreditation to the various open source projects and branding assets utilized in the making of learnVCS.
 
 
 ##Style Guide
@@ -71,7 +70,7 @@ The visual direction of learnVCS is constructed with the principles of atomic de
 ---
 
 ####Description
-This covers the typography of the site. It makes use of basic, sans-serif fonts to increase readability. The text for the header and the navigation is actually completely white, but it is displayed as having a black outline so that it will show up in this document. It is worth mentioning that the main title is actually smaller than the section titles. This is done so that the main header will still stand out, but won't overshadow the actual content.
+This covers the font styling of the site's text. It makes use of basic, sans-serif fonts to increase readability. The text for the header and the navigation is actually completely white, but it is displayed as having a black outline so that it will show up in this document. It is worth mentioning that the main title is actually smaller than the section titles. This is done so that the main header will still stand out, but won't overshadow the actual content.
 
 ####Style Notes
 
@@ -125,7 +124,7 @@ This covers the typography of the site. It makes use of basic, sans-serif fonts 
 ---
 
 ####Description
-learnVCS aims to make use of bright and inviting colors, similar to the ones specified in Google's Material Design guidelines.* Text should make use of muted whites and blacks for legibility. All colors should have a light and dark variant. 
+learnVCS aims to make use of bright and inviting colors, similar to the ones specified in [Google's Material Design guidelines](https://www.google.com/design/spec/material-design/). Text should make use of muted whites and blacks for legibility. All colors should have a light and dark variant. 
 
 ####Style Notes
 
@@ -159,6 +158,72 @@ learnVCS aims to make use of bright and inviting colors, similar to the ones spe
 - __light:__ #FFFDF8
 - __dark:__ #DICFB7
 
+###Header
+
+---
+
+![Header](./mockups/Header.png)
+
+---
+
+####Variants
+---
+
+![Header Large](./mockups/HeaderLarge.png)
+_A header on a large screen with the navigation list included._
+
+---
+
+![Header Expanded](./mockups/HeaderExpanded.png)
+_A header on a small screen with the navigation expanded._
+
+---
+
+####Description
+The header appears at the top of the page and has two purposes:
+
+1. Establish learnVCS's name and brand.
+2. Allow the user to navigate the page.
+
+####Behavior
+The header fills the entire width of the screen. Clicking on a navigation item will quickly take the user to that location on the screen. On large screens, all of the navigation items are listed and floated to the right. On smaller screens, the navigation list is replaced with a hamburger menu icon. Clicking on this will cause a list of the navigation icons to expand downwards, where they can then click on them.
+
+
+###Commit Graph
+
+---
+
+![Commit Graph](./mockups/CommitGraph.png)
+
+---
+
+####Variants
+
+---
+
+![Commit Graph with Commit Message View](./mockups/CommitGraphModal.png)
+
+_A Commit Graph with the [Commit Message View](#graph-message-view) open._
+
+---
+
+![Commit Graph with Repository Select Modal](./mockups/CommitGraphSelect.png)
+
+_A Commit Graph with the [Repository Select Modal](#repository-select-modal) open_
+
+---
+
+####Description 
+The Commit Graph is used to visualize the flow of commits in a single Git repository. It starts with a sample repository, but the user has the option to select another project from GitHub. Each node on the graph represents a single commit. Clicking on a node will allow the user to learn more about that commit. 
+
+####Behavior
+When the graph finishes loading the commits, the first node appears about a third of the way into the page. Additional nodes are added to the right. If there are more nodes than can be displayed on the screen, they will flow off the screen and the user can scroll to see more. 
+
+#####Selecting a Node
+When the user selects a node, the graph will automatically scroll until that node appears in the center of the screen. After that, it will load the Commit Message View. 
+
+#####Changing the Repository
+A magnifying glass icon will appear in the upper left corner of the screen, inviting the user to select a repository to display. If the user clicks or taps it, the [Repository Select Modal](#repository-select-modal) will appear above the graph. Loading a new repository will close this modal and change the structure of the graph.
 
 ###Graph Nodes
 
@@ -169,78 +234,27 @@ learnVCS aims to make use of bright and inviting colors, similar to the ones spe
 ---
 
 ####Description
-These are the nodes that will appear on the commits graph. Each node describes a commit from the repository. The different colors are used to distinguish between the different branches. The colors are taken directly from Google's Material Design Guidelines*.
+This is the node styling that will appear on the commits graph. Each node describes a commit from the repository. Different colors are used to identify different branches. The colors are taken directly from [Google's Material Design guidelines](https://www.google.com/design/spec/material-design/).
 
 ####Behavior 
-Each node color has two variants, a dark variant, and a border with a white variant. The white border variant is used to highlight a node that is selected. When the user clicks on a regular node, it the white border animates outward. The dark variant is used when the graph is displayed in a dimmed state.
+Each node color has two variants: a dark variant, and a white variant with a border. The bordered white variant is used to highlight the node that is currently selected. When the user clicks or taps on a regular node, it the white border animates outward. The dark variant is used when the graph is displayed in a dimmed state.
 
-
-###Image Group
-
----
-
-![Image Group](./mockups/ImageGroup.png)
+###Commit Message View
 
 ---
 
-####Description
-An image group is a combination of an approximately square image, a section subheader, and body text. The image will always be between 150px and 220px. This arrangement is used to quickly convey a concept by using imagery and a brief description. 
-
-####Behavior
-An image group sizes itself based on the current screen size. On a wide screen, up to three of these groupings can be displayed side-by-side horizontally. On smaller screens, each can be displayed on its own row.
-
-####Style Notes
-- __image:__ An image that illustrates the concept being described.
-- __section subheader:__ The name of the concept being described.
-- __body text:__ A brief description of the concept.
-
-###Profile
-
----
-
-![Profile](./mockups/Profile.png)
-
----
-
-####Variants
-
----
-
-![Profile Mobile](./mockups/ProfileMobile.png)
-_The profile grouping resized to fit on a smaller screen._
+![Commit Message View](./mockups/MessageView.png)
 
 ---
 
 ####Description
-A profile is used to list information about a person who worked on the project. It consists of an image of the person, their name, their job on learnVCS, and a fun description.
+The Commit Message View is a part of the [Commits Graph](#commit-graph). It describes a commit by displaying the commit message, the author of the commit, the date, and the hash. It is above the commits graph but is slightly transparent so as not to obscure the content.
 
 ####Behavior
-An a profile sizes itself based on the current screen size. On a wide screen, up to three profiles can be displayed side-by-side horizontally.
-
-On smaller screens, the content in a profile is reordered slightly. The profile image shrinks and moves to the left, while the text content moves to the right.
+The Commit Message View has a fixed width and height. When the user clicks on a node from the commits graph, the Message View appears next to it and is populated by the information from that commit. Any content overflow is hidden, but the user can scroll through it. The Message View can be dismissed by clicking off of it, or by clicking on the "X" icon.
 
 ####Style Notes
-- __image:__ A square photo of the person.
-- __section subheader:__ The name of the person.
-- __italic text:__ A brief description of the person's role on learnVCS.
-- __body text:__ A brief biography of the person.
-
-###Graph Message View
-
----
-
-![Graph Message View](./mockups/MessageView.png)
-
----
-
-####Description
-The Graph Message View is a part of the commits graph. It describes a commit by displaying the commit message, the author of the commit, the date, and the hash. It is above the commits graph but is slightly transparent so as not to obscure the content.
-
-####Behavior
-The Graph Message View has a fixed width and height. When the user clicks on a node from the commits graph, the Message View appears next to it and is populated by the information from that commit. Any content overflow is hidden, but the user can scroll through it. The Message View can be dismissed by clicking off of it, or by clicking on the "X" icon.
-
-####Style Notes
-_ __Graph Node:__ The node from the graph that was clicked to display the Graph Message View.
+_ __Graph Node:__ The node from the graph that was clicked to display the Commit Message View.
 - __Message Header:__ The first line of the commit message.
 - __Message italic:__ The date and time of the commit
 - __Message body:__ The remainder of the commit message.
@@ -283,6 +297,57 @@ When the user presses submit, they will be prompted to enter their GitHub creden
 #####Help
 It may not be immediately obvious what information the user needs to submit. A help screen is included to describe this. If the user clicks "Need help?", the content of the modal will be replaced by a brief description of the content they need and an image that highlights where they can find it on GitHub.
 
+
+###Section
+---
+
+![Colors](./mockups/SectionWhite.png)
+
+---
+
+####Variants
+
+---
+
+![Colors](./mockups/SectionRed.png)
+_A section using a red color scheme._
+
+---
+
+![Colors](./mockups/SectionBlue.png)
+_A section using a blue color scheme._
+
+---
+
+![Colors](./mockups/SectionYellow.png)
+_A section using a yellow color scheme._
+
+---
+
+####Description 
+A section is a generic container that is used to group content. It consists of a header that describes the content at the top, followed by the main section, which can contain sort of content. There are variations of sections for each of the main colors.
+
+
+###Image Group
+
+---
+
+![Image Group](./mockups/ImageGroup.png)
+
+---
+
+####Description
+An image group is a combination of an approximately square image, a section subheader, and body text. The image will always be between 150px and 220px. This arrangement is used to quickly convey a concept by using imagery and a brief description. 
+
+####Behavior
+An image group sizes itself based on the current screen size. On a wide screen, up to three of these groupings can be displayed side-by-side horizontally. On smaller screens, each can be displayed on its own row.
+
+####Style Notes
+- __image:__ An image that illustrates the concept being described.
+- __section subheader:__ The name of the concept being described.
+- __body text:__ A brief description of the concept.
+
+
 ###Badge
 
 ---
@@ -315,96 +380,35 @@ Badges are used to describe a subject and link to outside content. Badges appear
 ####Behavior
 The entire area of a badge is a link. Clicking anywhere within the bounds of the badge will open a link to outside content in a new page. Hovering over a badge will cause the background to lighten slightly.
 
-###Header
+
+###Profile
 
 ---
 
-![Header](./mockups/Header.png)
+![Profile](./mockups/Profile.png)
 
 ---
 
 ####Variants
----
-
-![Header Large](./mockups/HeaderLarge.png)
-_A header on a large screen with the navigation list included._
 
 ---
 
-![Header Expanded](./mockups/HeaderExpanded.png)
-_A header on a small screen with the navigation expanded._
+![Profile Mobile](./mockups/ProfileMobile.png)
+
+_The profile grouping resized to fit on a smaller screen._
 
 ---
 
 ####Description
-The Header appears at the top of the page and has two purposes:
-
-1. Establish learnVCS's name and brand.
-2. Allow the user to navigate the page.
+A profile provides information about a person who worked on the project. It consists of an image of the person, their name, their role in developing learnVCS, and a fun description.
 
 ####Behavior
-The Header fills the entire width of the screen. Clicking on a navigation item will quickly take the user to that location on the screen. On large screens, all of the navigation items are listed and floated to the right. On smaller screens, the navigation list is replaced with a hamburger menu icon. Clicking on this will cause a list of the navigation icons to expand downwards, where they can then click on them.
+A profile sizes itself based on the current screen size. On a wide screen, up to three profiles can be displayed horizontally.
 
+On smaller screens, the positioning of the profile elements is reordered. The profile image shrinks and moves to the left, while the text content moves to the right. Profiles are also arranged vertically. 
 
-###Section
----
-
-![Colors](./mockups/SectionWhite.png)
-
----
-
-####Variants
-
----
-
-![Colors](./mockups/SectionRed.png)
-_A section using a red color scheme._
-
----
-
-![Colors](./mockups/SectionBlue.png)
-_A section using a blue color scheme._
-
----
-
-![Colors](./mockups/SectionYellow.png)
-_A section using a yellow color scheme._
-
----
-
-####Description 
-A Section is a generic container that is used to group content. It consists of a header that describes the content at the top, followed by the main section, which can contain sort of content. There are variations of sections for each of the main colors.
-
-###Commit Graph
-
----
-
-![Commit Graph](./mockups/CommitGraph.png)
-
----
-
-####Variants
-
----
-
-![Commit Graph with Message View](./mockups/CommitGraphModal.png)
-_A Commit Graph with a node selected and a modal open._
-
----
-
-![Commit Graph with Repository Select Modal](./mockups/CommitGraphSelect.png)
-_A Commit Graph with the repository select modal open_
-
----
-
-####Description 
-The Commit Graph is used to visualize the flow of commits in a single Git Repository It starts with a sample repository, but the user has the option to select another repo from GitHub. Each node on the graph represents a single commit. Clicking on a node will allow the user to learn more about that commit. 
-
-####Behavior
-When a Graph Nodes, the first node appears about a third of the way into the page. Additional Nodes are added to the right. If there are more nodes than can be displayed on the screen, they will flow off the screen and the User can scroll to see more. 
-
-#####Selecting a Node
-When the User selects a node, the Graph will automatically scroll until that node appears in the center of the screen. After that, it will load the Commit Message View. 
-
-#####Changing the Repository
-A magnifying glass will appear in the upper left corner of the screen, inviting the user to select a repository to display. On clicking it, The Repository Select Modal will appear above the graph. Loading a new repository will close this modal and change the structure of the graph.
+####Style Notes
+- __image:__ A square photo of the person.
+- __section subheader:__ The name of the person.
+- __italic text:__ A brief description of the person's role on learnVCS.
+- __body text:__ A brief biography of the person.
