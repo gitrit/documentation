@@ -65,7 +65,7 @@ The visual direction of learnVCS is constructed with the principles of atomic de
 
 ---
 
-![Typography](./mockups/Typography.png)
+![Typography](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/Typography.png)
 
 ---
 
@@ -119,7 +119,7 @@ This covers the font styling of the site's text. It makes use of basic, sans-ser
 
 ---
 
-![Colors](./mockups/colors.png)
+![Colors](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/Colors.png)
 
 ---
 
@@ -162,19 +162,22 @@ learnVCS aims to make use of bright and inviting colors, similar to the ones spe
 
 ---
 
-![Header](./mockups/Header.png)
+![Header](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/Header.png)
 
 ---
 
 ####Variants
+
 ---
 
-![Header Large](./mockups/HeaderLarge.png)
+![Header Large](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/HeaderLarge.png)
+
 _A header on a large screen with the navigation list included._
 
 ---
 
-![Header Expanded](./mockups/HeaderExpanded.png)
+![Header Expanded](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/HeaderExpanded.png)
+
 _A header on a small screen with the navigation expanded._
 
 ---
@@ -193,7 +196,7 @@ The header fills the entire width of the screen. Clicking on a navigation item w
 
 ---
 
-![Commit Graph](./mockups/CommitGraph.png)
+![Commit Graph](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/CommitGraph.png)
 
 ---
 
@@ -201,13 +204,13 @@ The header fills the entire width of the screen. Clicking on a navigation item w
 
 ---
 
-![Commit Graph with Commit Message View](./mockups/CommitGraphModal.png)
+![Commit Graph with Commit Message View](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/CommitGraphModal.png)
 
-_A Commit Graph with the [Commit Message View](#graph-message-view) open._
+_A Commit Graph with the [Commit Message View](#commit-message-view) open._
 
 ---
 
-![Commit Graph with Repository Select Modal](./mockups/CommitGraphSelect.png)
+![Commit Graph with Repository Select Modal](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/CommitGraphSelect.png)
 
 _A Commit Graph with the [Repository Select Modal](#repository-select-modal) open_
 
@@ -229,7 +232,7 @@ A magnifying glass icon will appear in the upper left corner of the screen, invi
 
 ---
 
-![Graph Nodes](./mockups/nodes.png)
+![Graph Nodes](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/Nodes.png)
 
 ---
 
@@ -243,7 +246,7 @@ Each node color has two variants: a dark variant, and a white variant with a bor
 
 ---
 
-![Commit Message View](./mockups/MessageView.png)
+![Commit Message View](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/MessageView.png)
 
 ---
 
@@ -254,7 +257,7 @@ The Commit Message View is a part of the [Commits Graph](#commit-graph). It desc
 The Commit Message View has a fixed width and height. When the user clicks on a node from the commits graph, the Message View appears next to it and is populated by the information from that commit. Any content overflow is hidden, but the user can scroll through it. The Message View can be dismissed by clicking off of it, or by clicking on the "X" icon.
 
 ####Style Notes
-_ __Graph Node:__ The node from the graph that was clicked to display the Commit Message View.
+- __Graph Node:__ The node from the graph that was clicked to display the Commit Message View.
 - __Message Header:__ The first line of the commit message.
 - __Message italic:__ The date and time of the commit
 - __Message body:__ The remainder of the commit message.
@@ -263,24 +266,28 @@ _ __Graph Node:__ The node from the graph that was clicked to display the Commit
 
 ---
 
-![Repository Select Modal](./mockups/SearchModal.png)
+![Repository Select Modal](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/SearchModal.png)
 
 ---
 
 ####Variants
+
 ---
 
-![Repository Select Modal Help Screen](./mockups/SearchModalHelp.png)
+![Repository Select Modal Help Screen](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/SearchModalHelp.png)
+
 _A help screen that describes what to look for when_
 
 ---
 
-![Repository Select Modal Loading](./mockups/SearchModalLoading.png)
+![Repository Select Modal Loading](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/SearchModalLoading.png)
+
 _The Repository Select Modal when a repository is being loaded_
 
 ---
 
-![Repository Select Modal Loading](./mockups/SearchModalError.png)
+![Repository Select Modal Loading](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/SearchModalError.png)
+
 _The Repository Select Modal after a repository failed to be loaded_
 
 ---
@@ -299,9 +306,10 @@ It may not be immediately obvious what information the user needs to submit. A h
 
 
 ###Section
+
 ---
 
-![Colors](./mockups/SectionWhite.png)
+![Section](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/SectionWhite.png)
 
 ---
 
@@ -309,17 +317,20 @@ It may not be immediately obvious what information the user needs to submit. A h
 
 ---
 
-![Colors](./mockups/SectionRed.png)
+![Red Section](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/SectionRed.png)
+
 _A section using a red color scheme._
 
 ---
 
-![Colors](./mockups/SectionBlue.png)
+![Blue Section](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/SectionBlue.png)
+
 _A section using a blue color scheme._
 
 ---
 
-![Colors](./mockups/SectionYellow.png)
+![Yellow Section](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/SectionYellow.png)
+
 _A section using a yellow color scheme._
 
 ---
@@ -332,7 +343,7 @@ A section is a generic container that is used to group content. It consists of a
 
 ---
 
-![Image Group](./mockups/ImageGroup.png)
+![Image Group](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/ImageGroup.png)
 
 ---
 
@@ -352,24 +363,27 @@ An image group sizes itself based on the current screen size. On a wide screen, 
 
 ---
 
-![Colors](./mockups/BadgeWhite.png)
+![Badge](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/BadgeWhite.png)
 
 ---
 
 ####Variants
 ---
 
-![Colors](./mockups/BadgeRed.png)
+![Red Badge](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/BadgeRed.png)
+
 _A badge using a red color scheme._
 
 ---
 
-![Colors](./mockups/Badge.png)
+![Blue Badge](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/Badge.png)
+
 _A badge using a blue color scheme._
 
 ---
 
-![Colors](./mockups/BadgeYellow.png)
+![Yellow Badge](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/BadgeYellow.png)
+
 _A badge using a yellow color scheme._
 
 ---
@@ -385,7 +399,7 @@ The entire area of a badge is a link. Clicking anywhere within the bounds of the
 
 ---
 
-![Profile](./mockups/Profile.png)
+![Profile](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/Profile.png)
 
 ---
 
@@ -393,7 +407,7 @@ The entire area of a badge is a link. Clicking anywhere within the bounds of the
 
 ---
 
-![Profile Mobile](./mockups/ProfileMobile.png)
+![Profile Mobile](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/ProfileMobile.png)
 
 _The profile grouping resized to fit on a smaller screen._
 
