@@ -1,5 +1,31 @@
 #learnVCS Design Document
 
+---
+
+1. [Abstract](#abstract)
+2. [Mission Objective](#mission-objective) 
+3. [Constraints](#constraints)
+4. [Target Audience](#target-audience)
+5. [Resources](#resources)
+ 1. [Git Graph](#git-graph)
+ 2. [Why Use Version Control](#why-use-version-control)
+ 3. [Find Out More](#find-out-more)
+ 4. [About](#about)
+6. [Style Guide](#style-guide)
+ 1. [Typography](#typography)
+ 2. [Colors](#colors)
+ 3. [Header](#header)
+ 4. [Commit Graph](#commit-graph)
+ 5. [Graph Nodes](#graph-nodes)
+ 6. [Commit Message View](#commit-message-view)
+ 7. [Repository Select Modal](#repository-select-modal)
+ 8. [Section](#section)
+ 9. [Image Group](#image-group)
+ 10. [Badge](#badge)
+ 11. [Profile](#profile)
+
+---
+
 ##Abstract
 This document describes the design of the [learnVCS](https://github.com/learnVCS/learnVCS.github.io/) project. It outlines the goal of the project, the target audience, and the constraints, and in doing so allows us to design the best project within those limitations.
 
