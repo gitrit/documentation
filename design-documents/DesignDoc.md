@@ -39,7 +39,7 @@ The user will be able to enter the user or organization name and repository name
 ###Why Use Version Control?
 
 ####Purpose
-This section is intended to highlight primary motivators for using version control. Specifically, we want to highlight __version control's ability to track file changes over time__, __version control's ability to make collaborating among multiple people easier__, and __version control's ability to store a working backup of you project__.
+This section is intended to highlight primary motivators for using version control. Specifically, we want to highlight __version control's ability to track file changes over time__, __version control's ability to make collaborating among multiple people easier__, and __version control's ability to store a working backup of your project__.
 
 ###Learn Git
 
@@ -55,7 +55,6 @@ While learnVCS focuses primarily on Git for the reasons outlined in the previous
 
 ####Purpose
 There will be a low-key profiling of the team members and resources employed in the making of learnVCS. Each team member will have a small picture, their name, a description of their role and a small blurb about how cool they are. Below these profiles will be appropriate accreditation to the various open source projects and branding assets utilized in the making of learnVCS.
-
 
 ##Style Guide
 
@@ -276,19 +275,19 @@ The Commit Message View has a fixed width and height. When the user clicks on a 
 
 ![Repository Select Modal Help Screen](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/SearchModalHelp.png)
 
-_A help screen that describes what to look for when_
+_A help screen that highlights what to look for when selecting a repository on GitHub._
 
 ---
 
 ![Repository Select Modal Loading](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/SearchModalLoading.png)
 
-_The Repository Select Modal when a repository is being loaded_
+_The Repository Select Modal when a repository is being loaded._
 
 ---
 
 ![Repository Select Modal Loading](https://raw.githubusercontent.com/learnVCS/documentation/master/design-documents/mockups/SearchModalError.png)
 
-_The Repository Select Modal after a repository failed to be loaded_
+_The Repository Select Modal after a repository failed to be loaded._
 
 ---
 
